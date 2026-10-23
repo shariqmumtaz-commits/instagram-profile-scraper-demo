@@ -1,0 +1,21 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Authentication and environment secrets
+.env
+.env.*
+!.env.example
+state.json
+
+# Temporary files and logs
+*.log
+.pytest_cache/
+.scrapy/
+
+# macOS
+.DS_Store
